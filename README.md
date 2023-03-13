@@ -9,7 +9,7 @@ Return value      : Read line: correct behavior<br>
 External functs.  : read, malloc, free<br>
 Description       : Write a function that returns a line read from a file descriptor<br>
 
-• Repeated calls (e.g., using a loop) to your get_next_line() function should let
+• Repeated calls (e.g., using a loop) to your "get_next_line()" function should let
 you read the text file pointed to by the file descriptor, one line at a time.<br>
 • Your function should return the line that was read.<br>
   If there is nothing else to read or if an error occurred, it should return NULL.<br>
